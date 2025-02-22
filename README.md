@@ -1,57 +1,87 @@
-# Statistical Analysis of Customer Churn in the Iranian Telecom Market 
+# 📊 Statistical Analysis of Customer Churn in the Iranian Telecom Market
 
-## Introduction / Background  
-In the competitive telecommunications sector, customer retention is critical for business sustainability. A major Iranian telecom company faced increased customer churn, prompting an in-depth statistical analysis. This project leverages statistical techniques such as hypothesis testing, ANOVA, bootstrapping, and regression modeling to identify key factors influencing churn.  
+## 🏆 Introduction / Background  
+In the competitive telecommunications sector, **customer retention** is critical for business sustainability. A major **Iranian telecom company** faced increased customer churn, prompting an in-depth statistical analysis.  
 
-## Research Questions  
-1. Are there differences in usage duration among customers on different tariff plans? *(T-Test)*  
-2. Do long-term subscribers have distinct calling and messaging behaviors? *(EDA)*  
-3. How do service quality perceptions and engagement impact churn likelihood? *(Chi-Squared Test)*  
-4. Can demographic segmentation identify high-value customer groups? *(ANOVA, EDA)*  
-5. How do predictor variables affect Customer Lifetime Value (CLV) predictions? *(Regression Analysis)*  
-6. What plan modifications can help reduce churn? *(Bootstrapping & Confidence Intervals)*  
+This project leverages statistical techniques such as:  
+📌 **Hypothesis Testing**  
+📌 **ANOVA**  
+📌 **Bootstrapping**  
+📌 **Regression Modeling**  
+To identify key factors influencing **churn** and **customer behavior.**  
 
-## Methods and Data Collection  
-### Dataset Source  
-- **UCI Machine Learning Repository**  
-- **3,150 customer records**, spanning 12 months, including:  
-  - Call failures, SMS frequency, complaints, subscription length  
-  - Churn label indicating retention status  
+---
 
-### Statistical Techniques Used  
-- **T-tests**: Compare mean usage duration across tariff plans  
-- **ANOVA**: Examine behavioral differences across age groups  
-- **Regression Modeling**: Analyze predictor variables’ impact on CLV  
-- **Chi-Squared Test**: Assess relationship between activity levels and churn  
-- **Bootstrapping**: Estimate confidence intervals for retention strategies  
+## 🎯 Research Questions  
+1️⃣ **Are there differences in usage duration among customers on different tariff plans?** *(T-Test)*  
+2️⃣ **Do long-term subscribers have distinct calling and messaging behaviors?** *(EDA - Exploratory Data Analysis)*  
+3️⃣ **How do service quality perceptions and engagement impact churn likelihood?** *(Chi-Squared Test)*  
+4️⃣ **Can demographic segmentation identify high-value customer groups?** *(ANOVA, EDA)*  
+5️⃣ **How do predictor variables affect Customer Lifetime Value (CLV) predictions?** *(Regression Analysis)*  
+6️⃣ **What plan modifications can help reduce churn?** *(Bootstrapping & Confidence Intervals)*  
 
-## Results and Insights  
-### Exploratory Data Analysis (EDA)  
-- **Churn Rate**: 15% of customers churned (imbalanced dataset)  
-- **Age Groups**: Higher churn among younger (10-19) and older (50-59) customers  
-- **Usage Trends**: Preference for calls over texts; service dissatisfaction linked to lower usage  
-- **Subscription Model**: Higher churn in pay-as-you-go plans vs. contractual plans  
-- **Behavioral Shifts**: Long-term subscribers favor SMS over calls  
+---
 
-### Key Statistical Findings  
-#### Research Question 1: Tariff Plan Impact  
-*T-test (\( t = -7.4271 \), \( p = 1.295 \times 10^{-12} \)) confirmed significant usage differences, suggesting pay-as-you-go enhancements could improve retention.*  
+## 📦 Methods and Data Collection  
 
-#### Research Question 2: Subscription Duration  
-*EDA revealed longer-term customers preferred SMS, indicating a need for customized offers.*  
+### 📂 Dataset Source  
+📌 **UCI Machine Learning Repository**  
+📌 **3,150 customer records** spanning **12 months**  
+📌 **Key Features**:  
+- Call Failures 📞  
+- SMS Frequency ✉️  
+- Complaints ⚠️  
+- Subscription Length ⏳  
+- Churn Label (Retention Status) 🚀  
 
-#### Research Question 3: Service Quality & Engagement  
-*Chi-squared test (\( \chi^2 = 781.11 \), \( p < 0.05 \)) showed active customers were less likely to churn, emphasizing the need for engagement strategies.*  
+### 📊 Statistical Techniques Used  
+✅ **T-Tests**: Compare mean usage duration across tariff plans  
+✅ **ANOVA**: Examine behavioral differences across age groups  
+✅ **Regression Modeling**: Analyze predictor variables’ impact on CLV  
+✅ **Chi-Squared Test**: Assess relationship between activity levels and churn  
+✅ **Bootstrapping**: Estimate confidence intervals for retention strategies  
 
-#### Research Question 4: Demographics & Churn  
-*ANOVA confirmed significant churn variance across age groups, suggesting targeted marketing strategies.*  
+---
 
-#### Research Question 5: CLV Accuracy  
-*Regression analysis showed dynamic predictor variable changes influenced CLV reliability.*  
+## 📈 Results and Insights  
 
-#### Research Question 6: Plan Modifications  
-*Bootstrapping confirmed that optimized plan features could statistically reduce churn.*  
+### 🔍 Exploratory Data Analysis (EDA)  
+📊 **Churn Rate**: **15%** of customers churned (**imbalanced dataset**)  
+👥 **Age Groups**: **Higher churn** among **younger (10-19)** and **older (50-59) customers**  
+📞 **Usage Trends**: Preference for **calls over texts**; **lower service usage** linked to dissatisfaction  
+💰 **Subscription Model**: **Higher churn** in **pay-as-you-go** plans vs. **contractual plans**  
+📲 **Behavioral Shifts**: **Long-term subscribers** favor **SMS** over calls  
 
-## Conclusion  
-This study provided statistical insights into customer churn in the Iranian telecom sector. Findings emphasized **targeted retention strategies, customer engagement, and demographic-based marketing** to reduce churn and boost profitability.  
+### 📌 Key Statistical Findings  
+#### 📌 Research Question 1: Tariff Plan Impact  
+🔹 **T-test** (*t = -7.4271, p = 1.295 × 10⁻¹²*) confirmed **significant differences** in usage between tariff plans.  
+➡️ **Recommendation**: Enhance **pay-as-you-go plans** with **bonus minutes/data rollover** to improve retention.  
 
+#### 📌 Research Question 2: Subscription Duration  
+🔹 **EDA** revealed **longer-term customers** preferred **SMS**, suggesting the **need for customized offers**.  
+
+#### 📌 Research Question 3: Service Quality & Engagement  
+🔹 **Chi-Squared Test** (*χ² = 781.11, p < 0.05*) confirmed **active customers are less likely to churn**.  
+➡️ **Recommendation**: Improve **customer engagement strategies** (e.g., personalized rewards & loyalty programs).  
+
+#### 📌 Research Question 4: Demographics & Churn  
+🔹 **ANOVA** confirmed **significant churn variance** across **age groups**.  
+➡️ **Recommendation**: **Targeted marketing** for specific demographics to **reduce churn**.  
+
+#### 📌 Research Question 5: CLV Accuracy  
+🔹 **Regression analysis** showed **dynamic changes in predictor variables** influence **CLV reliability**.  
+
+#### 📌 Research Question 6: Plan Modifications  
+🔹 **Bootstrapping** confirmed **optimized plan features** could **statistically reduce churn rates**.  
+
+---
+
+## 🏁 Conclusion  
+This study provided valuable **statistical insights** into **customer churn** in the **Iranian telecom sector**. Findings emphasized:  
+✔️ **Targeted Retention Strategies** 🎯  
+✔️ **Customer Engagement Enhancements** 💬  
+✔️ **Demographic-Based Marketing** 📊  
+
+These **data-driven recommendations** will **help telecom companies improve customer loyalty and profitability.** 📈📞  
+
+---
